@@ -197,7 +197,7 @@ export default (() => {
 					lg-margin="0px 0px 8px 0px"
 					sm-font="normal 500 16px/1.6 &quot;Inter&quot;, sans-serif"
 				>
-					$11/mo. — no insurance needed
+					Portofolio
 				</Text>
 				<Text
 					lg-text-align="left"
@@ -208,7 +208,11 @@ export default (() => {
 					color="--white"
 					sm-font="normal 500 30px/1.2 &quot;Inter&quot;, sans-serif"
 				>
-					Personalized Health Care On Your Phone
+					Hi! It's{" "}
+					<br />
+					Narada Agastya{" "}
+					<br />
+					Jiwanta
 				</Text>
 				<Text
 					font="--base"
@@ -219,7 +223,7 @@ export default (() => {
 					color="--white"
 					opacity="1"
 				>
-					Our board-certified doctors are available 24/7.
+					Computer Application Student at Amity Online University
 				</Text>
 				<Box
 					lg-margin="32px 0px 0px 0px"
@@ -1582,9 +1586,7 @@ export default (() => {
 					font="normal 600 39px/1.3 --fontFamily-googleInter"
 					color="--dark"
 				>
-					We offer 20% off every month
-					<br />
-					for all our subscribers
+					Get Updates About Technology!
 				</Text>
 				<Box
 					border-color="rgba(5, 0, 11, 0.1)"
@@ -1645,7 +1647,20 @@ export default (() => {
 				width="25%"
 				md-align-items="center"
 			>
-				<Image src="https://uploads.quarkly.io/6123949e957019001e284458/images/logo.svg?v=2021-09-21T20:30:52.302Z" margin="0px 0px 24px 0px" max-width="171px" />
+				<Text margin="0px 0px 30px 0px" color="#ffffff" font="30px sans-serif">
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						NAJ.
+					</Strong>
+				</Text>
 				<SocialMedia
 					facebook="https://www.facebook.com/quarklyapp/"
 					twitter="https://twitter.com/quarklyapp"
@@ -1667,6 +1682,7 @@ export default (() => {
 						lg-justify-content="center"
 						lg-width="28px"
 						color="--light"
+						href="https://t.me/NaradaAgastya"
 					/>
 					<Override slot="icon" lg-font="18px sans-serif" />
 				</SocialMedia>
@@ -1735,128 +1751,6 @@ export default (() => {
 					href="#"
 				>
 					Contact
-				</Link>
-			</Box>
-			<Box
-				empty-min-height="64px"
-				empty-border-color="LightGray"
-				width="25%"
-				display="flex"
-				flex-direction="column"
-				md-justify-content="center"
-				empty-min-width="64px"
-				empty-border-style="solid"
-				padding="16px 16px 16px 16px"
-				md-width="100%"
-				md-align-items="center"
-				empty-border-width="1px"
-			>
-				<Text color="--white" font="--lead" margin="0px 0px 20px 0px">
-					HELP LINK
-					<br />
-				</Text>
-				<Link
-					opacity=".8"
-					text-decoration-line="initial"
-					transition="opacity 0.3s ease 0s"
-					hover-opacity="1"
-					margin="0px 0px 10px 0px"
-					font="--base"
-					href="#"
-					color="--white"
-				>
-					How to download
-				</Link>
-				<Link
-					text-decoration-line="initial"
-					transition="opacity 0.3s ease 0s"
-					hover-opacity="1"
-					margin="0px 0px 10px 0px"
-					font="--base"
-					href="#"
-					color="--white"
-					opacity=".8"
-				>
-					How it works
-				</Link>
-				<Link
-					color="--white"
-					opacity=".8"
-					text-decoration-line="initial"
-					transition="opacity 0.3s ease 0s"
-					hover-opacity="1"
-					margin="0px 0px 10px 0px"
-					font="--base"
-					href="#"
-				>
-					Video tutorial
-				</Link>
-				<Link
-					opacity=".8"
-					text-decoration-line="initial"
-					transition="opacity 0.3s ease 0s"
-					hover-opacity="1"
-					margin="0px 0px 0px 0px"
-					font="--base"
-					href="#"
-					color="--white"
-				>
-					FAQs
-				</Link>
-			</Box>
-			<Box
-				empty-min-height="64px"
-				empty-border-style="solid"
-				empty-border-color="LightGray"
-				width="25%"
-				padding="16px 16px 16px 16px"
-				md-width="100%"
-				empty-min-width="64px"
-				empty-border-width="1px"
-				display="flex"
-				flex-direction="column"
-				md-align-items="center"
-				md-justify-content="center"
-			>
-				<Text color="--white" font="--lead" margin="0px 0px 20px 0px">
-					SHORT LINKS
-				</Text>
-				<Link
-					color="--white"
-					opacity=".8"
-					text-decoration-line="initial"
-					hover-opacity="1"
-					margin="0px 0px 10px 0px"
-					font="--base"
-					href="https://play.google.com/store"
-					transition="opacity 0.3s ease 0s"
-					target="_blank"
-				>
-					Google Play Store
-				</Link>
-				<Link
-					font="--base"
-					href="#"
-					color="--white"
-					opacity=".8"
-					text-decoration-line="initial"
-					transition="opacity 0.3s ease 0s"
-					hover-opacity="1"
-					margin="0px 0px 10px 0px"
-				>
-					Apple App Store
-				</Link>
-				<Link
-					hover-opacity="1"
-					margin="0px 0px 10px 0px"
-					font="--base"
-					href="#"
-					color="--white"
-					opacity=".8"
-					text-decoration-line="initial"
-					transition="opacity 0.3s ease 0s"
-				>
-					Download Directly
 				</Link>
 			</Box>
 		</Section>
